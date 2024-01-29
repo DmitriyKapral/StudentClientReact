@@ -69,7 +69,6 @@ const MainScreen = ({ navigation }) => {
         ))}
       </View>
       <Diagram studentId={studentId}/>
-      <Button title="Открыть модальное окно" onPress={openModal} />
       
       {/* Другие компоненты и функциональность */}
       <Button title="Выйти" onPress={handleLogout} />
